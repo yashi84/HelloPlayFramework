@@ -10,8 +10,8 @@ import models.*;
 public class Application extends Controller {
 
     public static void index() {
-    	List<Msg> messages = Msg.findAll();
-        render(messages);
+    	List<Msg> msgs = Msg.findAll();
+        render(msgs);
     }
 
 }

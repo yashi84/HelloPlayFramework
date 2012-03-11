@@ -1,4 +1,6 @@
 #{extends 'main.html' /}
 #{set title:'Home' /}
 
-#{welcome /}
+#{list items:msgs, as:'msg'}
+	Hello, ${msg.message}<br />
+#{/list}
