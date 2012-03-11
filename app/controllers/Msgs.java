@@ -3,6 +3,6 @@ package controllers;
 import play.*;
 import play.mvc.*;
 
-public class Messages extends CRUD {
+public class Msgs extends CRUD {
 
 }

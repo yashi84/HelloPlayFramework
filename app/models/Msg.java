@@ -6,11 +6,11 @@ import javax.persistence.Table;
 import play.db.jpa.Model;
 
 @Entity
-public class Message extends Model {
+public class Msg extends Model {
 
     public String message;
 
-    public Message(String message) {
+    public Msg(String message) {
         this.message = message;
     }
 
