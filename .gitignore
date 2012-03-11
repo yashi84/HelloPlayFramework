@@ -3,5 +3,7 @@
 /lib
 /test-result
 /log
-
+/.classpath
+/.project
+/.settings
 
